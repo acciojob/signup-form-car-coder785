@@ -7,50 +7,43 @@
 </head>
 
 <body>
-	<form>
-<div>
-		<label for="name">Name*</label>
-		<input type="text" id="name" required>
-</div>
-
-		<div>
-			<label for="email">Email*</label>
-		<input type="email" id="email" required>
-		</div>
-	<div>
-			<label for="gender">Gender* </label>
-		<input type="radio" id="male" name="gender">
-		<label>male</label>
-			<input type="radio" id="female"  name="gender">
-		<label>female</label>
-			<input type="radio" id="other"  name="gender">
-		<label>other</label>
-	</div>
-		<div>
-			<label for="car brands"> Car Brands</label>
-			<input type="checkbox" id="cars">
-			<label for="BMW">BMW</label>
-			<input type="checkbox" id="cars">
-			<label for="Audi">Audio</label>
-			<input type="checkbox" id="cars">
-			<label for="Mercedez"> Mercedez</label>
-		</div>
-		<div>
-			<label for="age">Age*</label>
-			<input type="text" id="carage">
-		</div>
-		<div>
-			<label for="dob">DOB*</label>
-			<input type="date" id="dop">
-		</div>
-		<div>
-			<label for="Password">Password*</label>
-			<input type="password" id="password">
-		</div>
-		<div>
-			<button id="btn">submit button</button>
-		</div>
-	</form>
+	<form action="yourmail@gmail.com" method="post">
+		<label for="name">Name</label>
+		<input type="text" id="name" required> 
+		<br>
+	
+		<label for="email">Email</label>
+		 <input type="email" id="email" required> 
+		<br>
+	
+		<label for="gender">Gender</label>
+		<input type="radio" id="gender" name="gender" required> Male
+		<input type="radio" id="gender" name="gender" required> Female
+		<br>
+	
+		<label for="laptop">Laptop Brands</label>
+		
+			<select id="laptop" required>
+				<option name="laptop">BMW</option>
+				<option name="laptop">Audi</option>
+				<option name="laptop">Mercedez</option>
+			</select>
+			<br>
+		
+	
+		<label for="age">Age</label>
+		<input type="text" id="age" required> 
+		<br>
+		<label for="dob">DOB</label>
+		<input type="date" id="dob" required> 
+		<br>
+		<label for="password">Password</label>
+		<input type="password" id="password" required> 
+	<br>
+	
+	
+		<button type="submit"> Submit</button>
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
